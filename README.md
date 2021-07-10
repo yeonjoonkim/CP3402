@@ -20,10 +20,10 @@ The theme is based on the understrap starter theme template and used the theme f
 3. Delete the wp-content in the wordpress
 
 4. Command following step to deploy the Themes and Plug-in
-- 1. U3A
-- 2. Public
-- 3. "Wordpress-file-name"
-- 4. git clone https://github.com/yeonjoonkim/CP3402-U3A.git wp-content
+- U3A
+- Public
+- "Wordpress-file-name"
+- git clone https://github.com/yeonjoonkim/CP3402-U3A.git wp-content
 
 5. Turn on the vitural machine by using the command
 - "Vagrant up"
