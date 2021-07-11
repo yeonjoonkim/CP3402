@@ -31,6 +31,15 @@ The theme is based on the understrap starter theme template and used the theme f
 6. Open the website
 - 192.168.33.10/wordpress/
 
+# Plug-ins
+- [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) - Migration tool for all your blog data. Import or Export your blog content with a single click.
+- [Elementor](https://wordpress.org/plugins/elementor/) - The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more.
+- [Elementor Header & Footer Builder](https://wordpress.org/plugins/header-footer-elementor/) -This powerful plugin allows creating a custom header, footer with Elementor and display them on selected locations. 
+- [PDF Embedder](https://wordpress.org/plugins/pdf-embedder/) - Embed PDFs straight into your posts and pages, with flexible width and height. No third-party services required.
+- [Wonder Slider Lite](https://wordpress.org/plugins/wonderplugin-slider-lite/) -WordPress Image and Video Slider Plugin
+- [WP Google Maps](https://wordpress.org/plugins/wp-google-maps/) - Create custom Google Maps with high quality markers containing locations, descriptions, images and links. 
+- [WPForms Lite](https://wordpress.org/plugins/wpforms-lite/) -  Use our Drag & Drop form builder to create your WordPress forms.
+
 # About the Theme
 The aim was to deliver the website with the friendly and simple that are visually easy to see on the eyes, As our main target audience is the mature-aged group who is the third age. The provided contents such as text and images have been rearranged and reformatted into a well-thought, organised layout that makes reading through the site better.
 
@@ -50,6 +59,3 @@ You can also change how the website contents are organised by simply editting th
 
 # Theme files editting
 The main files are in the form of HTML, CSS, Sass, PHP and Javascript. Using an IDE or text editor, you can directly make changes to these files to fir your styling.
-
-# Plug-ins
-- [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) - Migration tool for all your blog data. Import or Export your blog content with a single click.
