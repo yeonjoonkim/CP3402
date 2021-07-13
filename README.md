@@ -34,7 +34,6 @@ The theme is based on the understrap starter theme template and used the theme f
 # Plug-ins
 
 - [Child Theme Configurator](https://wordpress.org/plugins/child-theme-configurator/) - Create child themes and customize styles, templates, functions and more.
-- 
 - [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) - Migration tool for all your blog data. Import or Export your blog content with a single click.
 - [Elementor](https://wordpress.org/plugins/elementor/) - The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more.
 - [Elementor Header & Footer Builder](https://wordpress.org/plugins/header-footer-elementor/) -This powerful plugin allows creating a custom header, footer with Elementor and display them on selected locations. 
@@ -64,12 +63,12 @@ If you wish to, you can edit the theme using theme using the functionalities pro
 
 # Menu
 - Wp-admin -> Appearance -> Menu
-[2021-07-14 12 55 37 am](https://user-images.githubusercontent.com/68950976/125474629-6b4be861-fc53-4ec3-8086-897f8ba4ce6b.png)
+<img width="595" alt="2021-07-14 01 00 32 am"  src="https://user-images.githubusercontent.com/68950976/125474629-6b4be861-fc53-4ec3-8086-897f8ba4ce6b.png">
 
 
 #Additional CSS
 - Wp-admin -> Appearance -> Customize -> Additional CSS
-[Image](https://user-images.githubusercontent.com/68950976/125474307-564b9ce9-50c8-4bb6-919f-d0ecda182e41.png)
+<img width="595" alt="2021-07-14 01 00 32 am"  src="https://user-images.githubusercontent.com/68950976/125474307-564b9ce9-50c8-4bb6-919f-d0ecda182e41.png">
 
 #Content editting
 You can also change how the website contents are organised by simply editting the pages
