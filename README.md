@@ -70,7 +70,7 @@ If you wish to, you can edit the theme using theme using the functionalities pro
 - Wp-admin -> Appearance -> Customize -> Additional CSS
 <img width="595" alt="2021-07-14 01 00 32 am"  src="https://user-images.githubusercontent.com/68950976/125474307-564b9ce9-50c8-4bb6-919f-d0ecda182e41.png">
 
-#Content editting
+# Content editting
 You can also change how the website contents are organised by simply editting the pages
 
 # Theme files editting
