@@ -59,8 +59,8 @@ If you wish to, you can edit the theme using theme using the functionalities pro
 
 # Customizer
 - Wp-admin -> Appearance -> Customize
-[2021-07-14 12 56 48 am](https://user-images.githubusercontent.com/68950976/125474890-edc3606c-d38e-4627-a6a4-21034168ed0c.png)
 
+<img width="595" alt="2021-07-14 01 00 32 am"  src="https://user-images.githubusercontent.com/68950976/125474890-edc3606c-d38e-4627-a6a4-21034168ed0c.png">
 
 # Menu
 - Wp-admin -> Appearance -> Menu
