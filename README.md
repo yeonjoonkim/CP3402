@@ -54,12 +54,22 @@ The aim was to deliver the website with the friendly and simple that are visuall
 # Theme editting
 If you wish to, you can edit the theme using theme using the functionalities provided by Wordpress.
 - WP-admin -> Appearance -> Theme Editor
+<img width="595" alt="2021-07-14 01 00 32 am" src="https://user-images.githubusercontent.com/68950976/125475390-accbac91-7545-4407-a162-b7093cc21b91.png">
+
+
+# Customizer
 - Wp-admin -> Appearance -> Customize
+[2021-07-14 12 56 48 am](https://user-images.githubusercontent.com/68950976/125474890-edc3606c-d38e-4627-a6a4-21034168ed0c.png)
+
+
+# Menu
 - Wp-admin -> Appearance -> Menu
+[2021-07-14 12 55 37 am](https://user-images.githubusercontent.com/68950976/125474629-6b4be861-fc53-4ec3-8086-897f8ba4ce6b.png)
+
 
 #Additional CSS
 - Wp-admin -> Appearance -> Customize -> Additional CSS
-2021-07-14 12.37.03 am.png![Image](https://user-images.githubusercontent.com/68950976/125474307-564b9ce9-50c8-4bb6-919f-d0ecda182e41.png)
+[Image](https://user-images.githubusercontent.com/68950976/125474307-564b9ce9-50c8-4bb6-919f-d0ecda182e41.png)
 
 #Content editting
 You can also change how the website contents are organised by simply editting the pages
