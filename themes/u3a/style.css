@@ -32,7 +32,7 @@ Updated: 2021-09-21 06:58:24
     .entry-title {
         font-size: 45px;
         font-style: bold;
-        color: grey;
+        color: white;
     }
     
     .wrapper {
@@ -41,26 +41,30 @@ Updated: 2021-09-21 06:58:24
     }
     
     .wp-block-column {
+        margin: 5px;
         background-color: darkgrey;
         color: black;
     }
     
     .wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link {
+        margin: 10px;
         background-color: black;
         color: white;
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        display: flex;
         text-align: center;
-        width: 200px;
-        height: 100px;
+        width: 100%;
         font-size: 20px;
     }
     
-    .wp-block-buttons {
-        display: flex;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
+    p {
+        margin: 10px;
+        font-size: 14px;
+    }
+    
+    h2 {
+        margin: 10px;
+        font-size: 30px;
+        font-weight: bold;
     }
