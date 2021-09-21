@@ -468,8 +468,8 @@ function wpforms_html_attributes( $id = '', $class = array(), $datas = array(), 
 
 	if ( ! empty( $atts ) ) {
 		foreach ( $atts as $att => $val ) {
-			if ( '0' == $val || ! empty( $val ) ) {
-				if ( '[' === $att[0] ) {
+			if ( '0' === (string) $val || ! empty( $val ) ) {
+				if ( $att[0] === '[' ) {
 					// Handle special case for bound attributes in AMP.
 					$escaped_att = '[' . sanitize_html_class( trim( $att, '[]' ) ) . ']';
 				} else {
@@ -1652,6 +1652,16 @@ function wpforms_debug() {
  */
 function wpforms_debug_data( $data, $echo = true ) {
 
+	/**
+	 * Allow developers to determine whether the debug data should be displayed.
+	 * Works only in debug mode (`WPFORMS_DEBUG` constant is `true`).
+	 *
+	 * @since 1.6.8
+	 *
+	 * @param bool $allow_display True by default.
+	 */
+	$allow_display = apply_filters( 'wpforms_debug_data_allow_display', true );
+
 	if ( wpforms_debug() ) {
 
 		$output = '<div><textarea style="background:#fff;margin: 20px 0;width:100%;height:500px;font-size:12px;font-family: Consolas,Monaco,monospace;direction: ltr;unicode-bidi: embed;line-height: 1.4;padding: 4px 6px 1px;" readonly>';
@@ -1666,8 +1676,8 @@ function wpforms_debug_data( $data, $echo = true ) {
 
 		$output .= '</textarea></div>';
 
-		if ( $echo ) {
-			echo $output; // phpcs:ignore
+		if ( $echo && $allow_display ) {
+			echo $output; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		} else {
 			return $output;
 		}
@@ -2090,7 +2100,7 @@ function wpforms_get_providers_available() {
  */
 function wpforms_get_providers_options( $provider = '' ) {
 
-	$options  = get_option( 'wpforms_providers', array() );
+	$options  = get_option( 'wpforms_providers', [] );
 	$provider = sanitize_key( $provider );
 	$data     = $options;
 
@@ -2818,4 +2828,24 @@ function wpforms_get_timezone() {
 	}
 
 	return timezone_open( $timezone_string );
+}
+
+/**
+ * Alias for default readonly function.
+ *
+ * @since 1.6.9
+ *
+ * @param mixed $readonly One of the values to compare.
+ * @param mixed $current  The other value to compare if not just true.
+ * @param bool  $echo     Whether to echo or just return the string.
+ *
+ * @return string HTML attribute or empty string.
+ */
+function wpforms_readonly( $readonly, $current = true, $echo = true ) {
+
+	if ( function_exists( 'wp_readonly' ) ) {
+		return wp_readonly( $readonly, $current, $echo );
+	}
+
+	return __checked_selected_helper( $readonly, $current, $echo, 'readonly' );
 }
