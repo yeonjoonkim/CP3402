@@ -73,6 +73,18 @@ Updated: 2021-09-21 06:58:24
         font-size: 10px;
     }
     
+    th {
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+    }
+    
+    td {
+        background-color: darkgray;
+        color: black;
+        text-align: center;
+    }
+    
     #wpforms-369 {
         margin: 10px;
     }
