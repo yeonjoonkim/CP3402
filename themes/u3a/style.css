@@ -69,6 +69,10 @@ Updated: 2021-09-21 06:58:24
         font-weight: bold;
     }
     
+    ul {
+        font-size: 10px;
+    }
+    
     #wpforms-369 {
         margin: 10px;
     }
