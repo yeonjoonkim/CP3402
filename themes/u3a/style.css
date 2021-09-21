@@ -28,3 +28,9 @@ Updated: 2021-09-21 06:58:24
         font-size: 20px;
         font-style: italic;
     }
+    
+    .entry-title {
+        font-size: 45px;
+        font-style: bold;
+        color: grey;
+    }
