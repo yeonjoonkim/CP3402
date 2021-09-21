@@ -1,4 +1,4 @@
-/*
+    /*
 Theme Name: U3A
 Theme URI: https://understrap.com
 Template: understrap
@@ -10,4 +10,21 @@ Version: 1.0.0.1632207504
 Updated: 2021-09-21 06:58:24
 
 */
-
+    
+    #main-nav {
+        background-color: black;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    #navbarNavDropdown {
+        font-size: 10px;
+        font-weight: bold;
+        color: grey;
+    }
+    
+    .navbar-brand {
+        font-size: 20px;
+        font-style: italic;
+    }
