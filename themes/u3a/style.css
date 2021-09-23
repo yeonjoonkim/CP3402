@@ -32,17 +32,16 @@ Updated: 2021-09-21 06:58:24
     .entry-title {
         font-size: 45px;
         font-style: bold;
-        color: white;
     }
     
     .wrapper {
         margin: 5px;
-        background-color: grey;
+        background-color: #bebebe;
     }
     
     .wp-block-column {
         margin: 5px;
-        background-color: darkgrey;
+        background-color: #bebebe;
         color: black;
     }
     
@@ -74,13 +73,13 @@ Updated: 2021-09-21 06:58:24
     }
     
     th {
-        background-color: darkblue;
+        background-color: black;
         color: white;
         text-align: center;
     }
     
     td {
-        background-color: darkgray;
+        background-color: #bebebe;
         color: black;
         text-align: center;
     }
