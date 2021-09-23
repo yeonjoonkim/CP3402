@@ -1,9 +1,9 @@
 # Project Report
 
 Name: Yeon Joon Kim
+
 Student ID: 13590666
 
-Project Report
 
 First of all, I have created a Git repository for U3A project to start with the project management. The project management tool was helpful to the time management and tracking the tasks. To achieve the client's goal, I used the site-map to draw the big picture of the objectives and created the tasks on the project management board based on the goal and needed.
 
