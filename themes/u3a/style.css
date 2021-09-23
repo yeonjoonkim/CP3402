@@ -11,21 +11,26 @@ Updated: 2021-09-21 06:58:24
 
 */
     
+    #main-menu {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
     #main-nav {
         background-color: black;
-        font-size: 10px;
+        font-size: 40px;
         font-weight: bold;
         color: white;
     }
     
     #navbarNavDropdown {
-        font-size: 10px;
+        font-size: 40px;
         font-weight: bold;
-        color: grey;
+        color: #A5FFD6
     }
     
     .navbar-brand {
-        font-size: 20px;
+        font-size: 40px;
         font-style: italic;
     }
     
@@ -36,17 +41,15 @@ Updated: 2021-09-21 06:58:24
     
     .wrapper {
         margin: 5px;
-        background-color: #bebebe;
     }
     
-    .wp-block-column {
-        margin: 5px;
-        background-color: #bebebe;
+    .wp-block-columns {
+        min-width: 400px;
+        background-color: #A5FFD6;
         color: black;
     }
     
     .wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link {
-        margin: 10px;
         background-color: black;
         color: white;
         display: inline-flex;
@@ -59,7 +62,7 @@ Updated: 2021-09-21 06:58:24
     
     p {
         margin: 10px;
-        font-size: 14px;
+        font-size: 20px;
     }
     
     h2 {
@@ -69,7 +72,7 @@ Updated: 2021-09-21 06:58:24
     }
     
     ul {
-        font-size: 10px;
+        font-size: 20px;
     }
     
     th {
